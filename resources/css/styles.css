@@ -1,0 +1,17 @@
+/* Ajustes generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Ajustes del carrusel para que ocupe la altura de la pantalla, opcional */
+  #clubLagartosCarousel .carousel-item img {
+    object-fit: cover;
+    height: 80vh; /* Ajusta la altura a tu gusto */
+  }
+  
+  #sobreNosotros {
+    min-height: 200px; /* Para asegurar un buen espacio en la sección */
+  }
+  
