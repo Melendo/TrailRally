@@ -8,10 +8,32 @@ body {
   /* Ajustes del carrusel para que ocupe la altura de la pantalla, opcional */
   #clubLagartosCarousel .carousel-item img {
     object-fit: cover;
-    height: 80vh; /* Ajusta la altura a tu gusto */
+    height: 80vh;
   }
   
   #sobreNosotros {
     min-height: 200px; /* Para asegurar un buen espacio en la sección */
   }
   
+  /* Efecto hover en las imágenes */
+.img-fluid {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.1); /* Efecto zoom */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.enlace-img {
+  width: 4rem;  /* Ajusta el tamaño según necesites */
+  height: 4rem; /* Mantiene proporción */
+  object-fit: cover; /* Evita deformaciones */
+  transition: transform 0.3s ease-in-out;
+}
+
+html {
+  scroll-padding-top: 80px; /* Ajusta según la altura de tu navbar */
+}
+
+
