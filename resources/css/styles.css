@@ -10,6 +10,10 @@ body {
     object-fit: cover;
     height: 80vh;
   }
+  #clubLagartosCarousel1 .carousel-item img {
+    object-fit: cover;
+    /*height: ;                                /*tamaño carrusel , xnumerovh*/
+  }
   
   #sobreNosotros {
     min-height: 200px; /* Para asegurar un buen espacio en la sección */
